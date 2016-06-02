@@ -14,4 +14,4 @@ WORKDIR /unicorn
 
 RUN bundle install
 
-CMD curl --verbose http://unicornpoo.herokuapp.com/update/team3-scuzzbuckets/complete
+RUN curl --verbose http://unicornpoo.herokuapp.com/update/team3-scuzzbuckets/complete
